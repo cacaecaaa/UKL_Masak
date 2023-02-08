@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0af1f"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/jusmangga"/>
+
+        </FrameLayout>
+
+        <TextView
+            style="@style/CardView.Dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="8dp"
+            android:text="JUS MANGGA"
+            android:textColor="@color/material_on_surface_emphasis_high_type"
+            android:textSize="32sp"
+            android:textStyle="bold"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+            <ImageView
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:src="@drawable/ecafoto"
+                android:layout_centerVertical="true"
+                android:id="@+id/profile_image"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+            <TextView
+                style="@style/CardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/profile_image"
+                android:text="Yessa Octa"
+                android:textColor="@android:color/black"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+        <TextView
+            style="@style/CardView.Dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:lineSpacingMultiplier="1"
+            android:text="Jus mangga biasanya dijual dalam bentuk gelas cup. Minuman ini juga terdiri dari beberapa lapisan dan topping. Bahan-bahan dari jus mangga yang segar ini selain buah mangga, yakni, ada susu, air, wipped cream, es batu, gula dan juga topping sesuai selera. Dengan mencampurkan bahan-bahan tersebut, segelas minuman dingin dan super segar bias kamu sajikan. Jangan bingung gimana cara membuatnya. Langsung saja yuk simak, 9 cara membuat jus mangga enak, super segar dan mudah."
+            android:textColor="@android:color/black"
+            android:textStyle="italic"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/bahan"
+            style="@style/CardView.Dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="5dp"
+            android:text="Bahan - bahan:"
+            android:textColor="@color/material_on_surface_emphasis_high_type"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/CardView.Dark"
+            android:id="@+id/langkah1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:text="@string/langkah1"
+            android:layout_below="@+id/bahan" />
+
+            <TextView
+                style="@style/CardView.Dark"
+                android:id="@+id/langkah2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:text="@string/langkah2"
+                android:layout_below="@+id/langkah1" />
+
+            <TextView
+                style="@style/CardView.Dark"
+                android:id="@+id/langkah3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:text="@string/langkah3"
+                android:layout_below="@+id/langkah2" />
+
+            <TextView
+                style="@style/CardView.Dark"
+                android:id="@+id/langkah4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:text="@string/langkah4"
+                android:layout_below="@+id/langkah3" />
+
+            <TextView
+                style="@style/CardView.Dark"
+                android:id="@+id/langkah5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:text="@string/langkah5"
+                android:layout_below="@+id/langkah4" />
+
+        </RelativeLayout>
+
+        <TextView
+            style="@style/CardView.Dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="5dp"
+            android:text="Cara Membuat:"
+            android:textColor="@color/material_on_surface_emphasis_high_type"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="10dp"
+            android:text="1. Mengiris Mangga"
+            android:textColor="@color/material_on_surface_emphasis_high_type"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/potongmangga"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="10dp"
+            android:text="Iris mangga menjadi beberapa potongan yang berukuran sekitar 3 cm."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="10dp"
+            android:text="2. Memasukkan Bahan - Bahan"
+            android:textColor="@color/material_on_surface_emphasis_high_type"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/masukkanmangga"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="10dp"
+            android:text="Masukkan potongan mangga ke dalam blender bersama susu atau air, dan gula."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="10dp"
+            android:text="3. Jalankan Blender"
+            android:textColor="@color/material_on_surface_emphasis_high_type"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/jalankanblender"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="10dp"
+            android:text="Jalankan blender selama 30 detik atau sampai mangga menjadi halus"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="10dp"
+            android:text="4. Saring Jus"
+            android:textColor="@color/material_on_surface_emphasis_high_type"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/saringjus"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="10dp"
+            android:text="Saring jus yang Anda buat jika menginginkan jus mangga yang encer."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="10dp"
+            android:text="5. Plating Jus"
+            android:textColor="@color/material_on_surface_emphasis_high_type"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/platingjus"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="10dp"
+            android:text="Tuang jus mangga ke dalam gelas. "/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
